@@ -10,7 +10,7 @@ const projects = [
     image: "/projects/protfolioprojectpic.png",
     tags: ["React", "Tailwind CSS", "JavaScript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/jatinsharma2005/Portfolio",
   },
   {
     id: 2,
