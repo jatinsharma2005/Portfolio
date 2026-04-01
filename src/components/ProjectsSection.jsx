@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
+    title: "Play School Website",
     description:
-      "A personal portfolio website to showcase my projects and skills.",
-    image: "/projects/protfolioprojectpic.png",
+      "Developed a responsive play school website with a child-friendly UI, featuring sections like programs, gallery, admissions, and contact. Focused on bright visuals, easy navigation, and informative content for parents.",
+    image: "https://i.ibb.co/v4yLTysV/image.png",
     tags: ["React", "Tailwind CSS", "JavaScript"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/jatinsharma2005/Portfolio",
+    demoUrl: "https://www.activekidsplayschool.com/",
+    githubUrl: "https://github.com/jatinsharma2005/ActivekidsplaySchool-frontend",
   },
   {
     id: 2,
