@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   ArrowDown,
   ArrowUpRight,
+  Download,
   Github,
   Linkedin,
   Mail,
@@ -133,6 +134,9 @@ export const Home = () => {
               <div className="hero-actions">
                 <a className="hero-action hero-action-primary" href="#projects">View selected work <ArrowUpRight size={14} aria-hidden="true" /></a>
                 <a className="hero-action" href="#contact">Contact me <ArrowUpRight size={14} aria-hidden="true" /></a>
+                <a className="hero-action" href="/Jatin-Kumar-Resume.pdf" download="Jatin-Kumar-Resume.pdf">
+                  Download Resume <Download size={14} aria-hidden="true" />
+                </a>
               </div>
               <div className="hero-social">
                 <span className="mono">Find me</span>
